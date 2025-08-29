@@ -18,7 +18,7 @@ function Navbar() {
             Coming Soon
           </span>
           </li>
-        <li><a href="/ShwetaMisra_Resume.pdf">Resume</a></li>
+        <li><a href={`${process.env.PUBLIC_URL}/ShwetaMisra_Resume.pdf` } target="_blank" rel="noopener noreferrer">Resume</a></li>
         <li><a href="https://kth.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=1&af=%5B%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&query=nested+noun&language=en&pid=diva2%3A1824001&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=5884">Thesis</a></li>
       </ul>
     </nav>
