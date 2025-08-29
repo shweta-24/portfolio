@@ -4,7 +4,7 @@ function About() {
   return (
     <section id="about" className="py-10">
       <h3 className="text-xl font-bold mb-4">About Me</h3>
-      <p className="mb-1">
+      <p className="mb-1 padding-right-10">
       I'm a Machine Learning Engineer with experience in designing, fine-tuning, and deploying scalable AI/ML 
       systems. Skilled in end-to-end ML engineering—from model development and backend integration to scalable data 
       pipelines—leveraging tools like PyTorch, PostgreSQL, and Elastic to deliver production-ready solutions. 
